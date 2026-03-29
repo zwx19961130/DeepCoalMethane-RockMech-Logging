@@ -1,10 +1,9 @@
 # Prediction of Rock Mechanical Parameters in Deep Coal-Bearing Formations
 
----
 
 This repository contains the official implementation and dataset for the paper:
 
-**"Prediction of Rock Mechanical Parameters in Deep Coal-Bearing Formations Using Logging Data and Explainable Machine Learning"**.
+**"Residual Decomposition for Lithotype-Aware Characterization of Rock Mechanical Parameters from Well Logs under Lithological Heterogeneity"**.
 
 ## 📖 Project Overview
 
@@ -28,12 +27,10 @@ Accurate characterization of rock mechanical parameters (UCS, Young’s modulus,
 
 ## 📁 Repository Structure
 
-Plaintext
-
 ```
 ├── data/
 │   ├── training_data.csv       # Preprocessed logging data from 5 wells
-│   ├── validation_data.csv     # Well-Validate-1 data [cite: 201]
+│   ├── validation_data.csv     # Well-Validate-1 data
 │   └── test_data.csv           # Independent blind-well (Well-Test-1)
 ├── notebooks/
 │   ├── 01_HMLZ_Calculation.ipynb  # Lithotype classification logic
@@ -83,7 +80,7 @@ Code snippet
 
 ```
 @article{Liu2026Prediction,
-  title={Prediction of Rock Mechanical Parameters in Deep Coal-Bearing Formations Using Logging Data and Explainable Machine Learning},
+  title={Residual Decomposition for Lithotype-Aware Characterization of Rock Mechanical Parameters from Well Logs under Lithological Heterogeneity},
   author={Liu, Xugang and Dang, Binghua and Li, Lei and Zhang, Weixian and Tan, Qiang and Zhou, Wenze},
   journal={Applied Sciences},
   year={2026}
